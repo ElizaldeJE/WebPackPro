@@ -4,6 +4,7 @@
   "description": "a small webpack project",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +12,7 @@
     "url": "git+https://github.com/ElizaldeJE/WebPackPro.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Javier Elizalde",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ElizaldeJE/WebPackPro/issues"
@@ -24,6 +25,7 @@
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.21.0",
     "uglifyjs-webpack-plugin": "^1.2.7",
-    "webpack": "^4.16.2"
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
   }
 }
