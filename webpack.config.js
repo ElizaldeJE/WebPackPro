@@ -8,6 +8,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
+    mode: 'development',
     entry: './src/app.js',  // this is our app
     output: {
         filename: '[name].bundle.js', // the file name would be my entry's name with a ".bundle.js" suffix
